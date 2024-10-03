@@ -21,14 +21,14 @@ header {
 
 div.cont-header {
     display: flex;
-    width: 920px;
+    width: 1020px;
     margin: 5px auto;
     justify-content: space-around;
     align-items: center;
 }
 
 div.cont-header > div.logo > span {
-    font-size: 24pt;
+    font-size: 32pt;
     color: aliceblue;
 }
 
@@ -44,4 +44,5 @@ ul.menu-nav > li.op {
 
 ul.menu-nav > li.op > a {
     color: aliceblue;
+    font-size: 14pt;
 }
