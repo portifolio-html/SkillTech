@@ -6,11 +6,13 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    overflow: hidden;
 }
 
 body {
     width: 100vw;
     height: 100vh;
+    background-color: rgb(236, 238, 240);
 }
 
 header {
@@ -21,8 +23,7 @@ header {
 
 div.cont-header {
     display: flex;
-    width: 1200px;
-    max-width: 1200px;
+    width: 1020px;
     margin: 5px auto;
     justify-content: space-around;
     align-items: center;
@@ -53,3 +54,17 @@ ul.menu-nav > li.op > a {
     font-size: 14pt;
 }
 
+
+/*################################################################
+formatação main
+##################################################################*/
+
+main {
+    display: flex;
+    width: 920px;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.349);
+}
