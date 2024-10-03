@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    
+}
+
+.menu-nav-list {
+    display: none;
+}
+
+.menu-hamburgue {
+    position: relative;
+    width: 30px;
+    height: 1px;
+    background-color: aliceblue;
+
+    
+}
+
+.menu-hamburgue::after {
+    position: absolute;
+    top: -10px;
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: aliceblue;
+}
+
+.menu-hamburgue::before {
+    position: absolute;
+    top: 10px;
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: aliceblue;
+}
