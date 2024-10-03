@@ -29,12 +29,17 @@ div.cont-header {
     align-items: center;
 }
 
+div.logo {
+    display: flex;
+    flex-direction: row;
+}
+
 div.cont-header > div.logo > a > span {
     font-size: 28pt;
     color: rgb(255, 255, 255);
 }
 
-div.cont-header > div.nav-bar-home > div.menu-nav-list > ul.menu-nav {
+ul.menu-nav {
     display: flex;
 }
 
