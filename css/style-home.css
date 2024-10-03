@@ -16,12 +16,12 @@ body {
 header {
     display: flex;
     width: 100%;
-    background-color: rgb(14, 167, 49);
+    background-color: rgb(10, 67, 85);
 }
 
 div.cont-header {
     display: flex;
-    width: 1020px;
+    width: 1200px;
     margin: 5px auto;
     justify-content: space-around;
     align-items: center;
