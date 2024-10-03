@@ -22,13 +22,14 @@ header {
 div.cont-header {
     display: flex;
     width: 1200px;
+    max-width: 1200px;
     margin: 5px auto;
     justify-content: space-around;
     align-items: center;
 }
 
-div.cont-header > div.logo > span {
-    font-size: 32pt;
+div.cont-header > div.logo > a > span {
+    font-size: 28pt;
     color: rgb(255, 255, 255);
 }
 
@@ -37,12 +38,18 @@ div.cont-header > div.nav-bar-home > div.menu-nav-list > ul.menu-nav {
 }
 
 ul.menu-nav > li.op {
-    margin: 0 10px;
-    padding: 5px 10px;
-    border-radius: 15px;
+    margin: 0 5px;
+    padding: 5px 15px;
+    border-radius: 5px 15px;
+}
+
+li.op:hover {
+    background-color: rgba(255, 255, 255, 0.158);
+    color: aqua;
 }
 
 ul.menu-nav > li.op > a {
     color: aliceblue;
     font-size: 14pt;
 }
+

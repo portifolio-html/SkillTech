@@ -13,8 +13,6 @@ body {
     width: 30px;
     height: 1px;
     background-color: aliceblue;
-
-    
 }
 
 .menu-hamburgue::after {
@@ -33,4 +31,10 @@ body {
     width: 30px;
     height: 2px;
     background-color: aliceblue;
+}
+
+@media (min-width: 800px) {
+    .menu-nav-list {
+        display: none;
+    }
 }
