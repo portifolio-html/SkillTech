@@ -9,7 +9,7 @@
 }
 
 html {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 body {
@@ -32,7 +32,7 @@ div.logo-header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin-top: .5em;
 }
 
 div.logo-header > img.img-logo {
@@ -41,45 +41,45 @@ div.logo-header > img.img-logo {
 
 div.logo-header > a {
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 ul.nav-bar {
     display: flex;
-    padding-top: 1rem;
+    padding-top: 1em;
 }
 
 ul.nav-bar > li.op > a{
-    margin: 0 5px;
-    padding: 5px 20px;
+    margin: 0 .3em;
+    padding: .5em 1em;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 ul.nav-bar > li.op > a:hover{
     box-sizing: border-box;
-    border-top: 2px solid rgba(255, 68, 0, 0.705);
+    border-top: .1em solid rgba(255, 68, 0, 0.705);
     color: #fec544;
 }
 
 .cont-title {
-    margin-top: 4rem;
-    margin-left: 5.5rem;
+    margin-top: 3em;
+    margin-left: 5.5em;
 }
 
 .cont-title span {
-    font-size: 5rem;
+    font-size: 3rem;
     color: #e91361;
-    text-shadow: 0 0 7px rgb(91, 93, 79);
+    text-shadow: 0 0 15px rgb(255, 255, 255);
 }
 
 .cont-texto-show {
-    margin-top: 4rem;
-    margin-left: 5.5rem;
+    margin-top: 3rem;
+    margin-left: 5.5em;
 }
 
 .cont-texto-show p {
     width: 40%;
-    line-height: 2rem;
-    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
 }
