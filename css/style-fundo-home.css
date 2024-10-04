@@ -8,6 +8,10 @@
     text-decoration: none;
 }
 
+html {
+    font-size: 15px;
+}
+
 body {
     width: 100vw;
     height: 100vh;
@@ -32,24 +36,24 @@ div.logo-header {
 }
 
 div.logo-header > img.img-logo {
-    width: 50px;
+    width: 3.5rem;
 }
 
 div.logo-header > a {
     color: #fff;
-    font-size: 20pt;
+    font-size: 2.5rem;
 }
 
 ul.nav-bar {
     display: flex;
-    padding-top: 15px;
+    padding-top: 1rem;
 }
 
 ul.nav-bar > li.op > a{
     margin: 0 5px;
     padding: 5px 20px;
     color: #fff;
-    font-size: 14pt;
+    font-size: 1.5rem;
 }
 
 ul.nav-bar > li.op > a:hover{
@@ -59,22 +63,23 @@ ul.nav-bar > li.op > a:hover{
 }
 
 .cont-title {
-    margin-top: 60px;
-    margin-left: 80px;
+    margin-top: 4rem;
+    margin-left: 5.5rem;
 }
 
 .cont-title span {
-    font-size: 42pt;
+    font-size: 5rem;
     color: #e91361;
     text-shadow: 0 0 7px rgb(91, 93, 79);
 }
 
 .cont-texto-show {
-    margin-top: 50px;
-    margin-left: 80px;
+    margin-top: 4rem;
+    margin-left: 5.5rem;
 }
 
 .cont-texto-show p {
     width: 40%;
-    line-height: 25PX;
+    line-height: 2rem;
+    font-size: 1.5rem;
 }
