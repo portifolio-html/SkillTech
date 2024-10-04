@@ -12,47 +12,6 @@ html {
     font-size: 16px;
 }
 
-/* Mobile */
-@media (max-width: 480px) {
-    body {
-        font-size: 14px;
-    }
-}
-
-/* Smartphones maiores */
-@media (min-width: 481px) and (max-width: 767px) {
-    body {
-        font-size: 15px;
-    }
-}
-
-/* Tablet */
-@media (min-width: 768px) and (max-width: 1024px) {
-    body {
-        font-size: 16px;
-    }
-}
-
-/* Desktop pequeno */
-@media (min-width: 1025px) and (max-width: 1280px) {
-    body {
-        font-size: 17px;
-    }
-}
-
-/* Desktop médio */
-@media (min-width: 1281px) and (max-width: 1440px) {
-    body {
-        font-size: 18px;
-    }
-}
-
-/* Desktop grande */
-@media (min-width: 1441px) {
-    body {
-        font-size: 20px;
-    }
-}
 
 body {
     width: 100vw;
@@ -120,8 +79,9 @@ ul.nav-bar > li.op > a:hover{
     margin-left: 5.5em;
 }
 
-.cont-texto-show p {
+.cont-texto-show > p {
     width: 40%;
+    min-width: 500px;
     line-height: 1.5rem;
     font-size: 1.2rem;
     color: #555555;
