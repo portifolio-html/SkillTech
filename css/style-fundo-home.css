@@ -64,22 +64,35 @@ body {
 }
 
 .menu-nav-bar > .nav-bar {
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     padding: 1em 0;
+    justify-content: center;
     align-items: center;
 }
 
 .nav-bar > .op {
     display: flex;
     justify-content: center;
-    margin-top: .3em;
-    padding: .2em;
+    align-items: center;
+    margin-top: .5em;
+    padding: .8em;
+    width: 200px;
+}
+
+.nav-bar > .op:hover {
+    text-decoration-color: #f6c53f;
+    background: linear-gradient(to left, rgba(235, 95, 3, 0), rgba(233, 191, 5, 0.308), rgba(235, 95, 3, 0));
 }
 
 .nav-bar > .op > a {
     color: aliceblue;
     text-shadow: 0 0 5px black;
+}
+
+.nav-bar > .op > a:hover {
+    color: #f6c53f;
 }
 
 main {
