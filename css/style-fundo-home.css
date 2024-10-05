@@ -144,12 +144,13 @@ footer {
     width: 13em;
     margin: 1.5em;
     padding: .4em;
-    border-radius: 10px;
-    background-color: #f6c53f93;
+    border-radius: 100px;
+    border: 1px solid #f6c53f;
+    background-color: #f6c53f2c;
 }
 
 .saiba-mais > span {
     font-size: 1.5rem;
-    color: aliceblue;
+    color: rgb(240, 224, 219);
 
 }
