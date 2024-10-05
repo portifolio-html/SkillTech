@@ -10,6 +10,7 @@
 }
 
 html {
+    position: relative;
     font-size: 16px;
 }
 
@@ -62,6 +63,7 @@ body {
     background-position: center 0;
     background-size: contain;
     background-repeat: no-repeat;
+    background-attachment: local;
 }
 
 
@@ -82,30 +84,8 @@ body {
     width: 200px;
 }
 
-.op:not(.op1) {
-    padding: .4em;
-}
-
 .nav-bar > .op > a {
     display: none;
-}
-
-.nav-bar > .op:hover {
-    text-decoration-color: #f6c53f;
-    background: linear-gradient(
-        to left, 
-        rgba(235, 95, 3, 0), 
-        rgba(233, 191, 5, 0.308), 
-        rgba(235, 95, 3, 0));
-}
-
-.nav-bar > .op > a {
-    color: aliceblue;
-    text-shadow: 0 0 5px black;
-}
-
-.nav-bar > .op > a:hover {
-    color: #f6c53f;
 }
 
 main {
@@ -130,15 +110,16 @@ main {
 }
 
 footer {
+
     display: flex;
+    margin-top: 2.85em;
     justify-content: center;
-    position: absolute;
-    bottom: 0;
     width: 100%;
     background-color: #2e2d2d;
 }
 
 .saiba-mais {
+    
     display: flex;
     justify-content: center;
     width: 13em;
