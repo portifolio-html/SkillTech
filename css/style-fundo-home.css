@@ -6,7 +6,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: 'Myriad Pro', 'Trebuchet MS', sans-serif;
 }
 
 html {
@@ -49,7 +49,7 @@ div.logo-header > img.img-logo {
 }
 
 div.logo-header > a {
-    color: #414040;
+    color: #f6c53f;
     font-size: 2rem;
 }
 
@@ -58,11 +58,12 @@ div.logo-header > a {
 }
 
 body {
-    background-image: url("../image/Nova pasta/width-768.jpg");
-    background-position: center 6.5em;
+    background-image: url("../image/Nova pasta/width-768-2.jpg");
+    background-position: center 0;
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 
 .menu-nav-bar > .nav-bar {
     display: flex;
@@ -78,7 +79,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: .5em;
     width: 200px;
 }
 
