@@ -57,9 +57,9 @@ div.logo-header > a {
 }
 
 body {
-    background-image: url("../image/Nova pasta/back cell.jpg");
+    background-image: url("../image/Nova pasta/width-768.jpg");
+    background-position: center 6.5em;
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -77,13 +77,17 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: .5em;
-    padding: .8em;
+    padding: .4em;
     width: 200px;
 }
 
 .nav-bar > .op:hover {
     text-decoration-color: #f6c53f;
-    background: linear-gradient(to left, rgba(235, 95, 3, 0), rgba(233, 191, 5, 0.308), rgba(235, 95, 3, 0));
+    background: linear-gradient(
+        to left, 
+        rgba(235, 95, 3, 0), 
+        rgba(233, 191, 5, 0.308), 
+        rgba(235, 95, 3, 0));
 }
 
 .nav-bar > .op > a {
@@ -113,4 +117,29 @@ main {
     margin-top: 1.5em;
     text-align: center;
     max-width: 350px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #2e2d2d;
+}
+
+.saiba-mais {
+    display: flex;
+    justify-content: center;
+    width: 10em;
+    margin: 1.5em;
+    padding: .4em;
+    border-radius: 10px;
+    background-color: #f6c53f93;
+}
+
+.saiba-mais > span {
+
+    color: aliceblue;
+
 }
