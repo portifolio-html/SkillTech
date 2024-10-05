@@ -131,7 +131,7 @@ footer {
 .saiba-mais {
     display: flex;
     justify-content: center;
-    width: 10em;
+    width: 13em;
     margin: 1.5em;
     padding: .4em;
     border-radius: 10px;
@@ -139,7 +139,7 @@ footer {
 }
 
 .saiba-mais > span {
-
+    font-size: 1.5rem;
     color: aliceblue;
 
 }
