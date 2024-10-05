@@ -16,16 +16,23 @@ html {
 body {
     width: 100vw;
     height: 100vh;
-    background-image: url("../image/Nova pasta/back-finality-two.jpg") ;
-    background-size: cover;
-    background-position: center -20px;
-    background-repeat: no-repeat;
+}
+
+.img-back > img {
+    position: absolute;
+    left: 0;
+    top: 6.5em;
+    width: 100%;
 }
 
 header {
     display: flex;
     width: 100vw;
     justify-content: center;
+}
+
+.cont-header-bar {
+    width: 100%;
 }
 
 div.logo-header {
@@ -41,48 +48,36 @@ div.logo-header > img.img-logo {
 }
 
 div.logo-header > a {
-    color: #fff;
+    color: #a8a6a6;
     font-size: 2rem;
 }
 
-ul.nav-bar {
+.menu-nav-bar {
+    width: 100%;
+}
+
+body {
+    background-image: url("../image/Nova pasta/back cell.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menu-nav-bar > .nav-bar {
+    display: block;
+    width: 100%;
+    padding: 1em 0;
+    align-items: center;
+}
+
+.nav-bar > .op {
     display: flex;
-    padding-top: 1em;
+    justify-content: center;
+    margin-top: .5em;
+    padding: .3em;
 }
 
-ul.nav-bar > li.op > a{
-    margin: 0 .3em;
-    padding: .5em 1em;
-    color: #fff;
-    font-size: 1.2rem;
-}
-
-ul.nav-bar > li.op > a:hover{
-    box-sizing: border-box;
-    border-top: .1em solid rgba(255, 68, 0, 0.705);
-    color: #fec544;
-}
-
-.cont-title {
-    margin-top: 3em;
-    margin-left: 5.5em;
-}
-
-.cont-title span {
-    font-size: 3rem;
-    color: #555555;
-    text-shadow: 0 0 15px rgb(255, 255, 255);
-}
-
-.cont-texto-show {
-    margin-top: 3rem;
-    margin-left: 5.5em;
-}
-
-.cont-texto-show > p {
-    width: 40%;
-    min-width: 500px;
-    line-height: 1.5rem;
-    font-size: 1.2rem;
-    color: #555555;
+.nav-bar > .op > a {
+    color: aliceblue;
+    text-shadow: 0 0 5px black;
 }
