@@ -5,6 +5,14 @@ main {
     text-align: left;
 }
 
+.cont-main {
+    width: 100%;
+    text-align: left;
+    justify-content: left;
+    align-items: start;
+    padding-left: 2em;
+}
+
 .cont-title {
     max-width: 450px;
 }
@@ -30,11 +38,15 @@ main {
 }
 
 footer {
+    justify-content: left;
     background-color: rgba(255, 255, 255, 0);
-}
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: .5em;
+    }
 
 .saiba-mais {
-
     border: 0px solid #252525;
     background-color: #c99d26c5;
     box-shadow: 0 0 15px rgba(185, 161, 26, 0.562);

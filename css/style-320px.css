@@ -76,7 +76,16 @@ main {
     text-align: center;
     width: 90%;
     margin: 0 auto;
-    margin-top: 8.4em;
+    margin-top: 9.8em;
+}
+
+.cont-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
 }
 
 .cont-title {
@@ -89,10 +98,12 @@ main {
     font-size: 2rem;
     font-weight: 600;
     text-shadow: 0 0 15px white;
+    
 }
 
 .cont-texto-show {
     height: 7.35em;
+    
 }
 
 .cont-texto-show > p {
