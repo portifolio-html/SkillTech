@@ -10,7 +10,7 @@
 }
 
 html {
-    position: relative;
+
     font-size: 16px;
 }
 
@@ -67,23 +67,6 @@ body {
 }
 
 .menu-nav-bar > .nav-bar {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 14em;
-    padding: 1em 0;
-    justify-content: center;
-    align-items: center;
-}
-
-.nav-bar > .op {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-}
-
-.nav-bar > .op > a {
     display: none;
 }
 
@@ -93,19 +76,30 @@ main {
     text-align: center;
     width: 90%;
     margin: 0 auto;
+    margin-top: 8.4em;
+}
+
+.cont-title {
+    max-width: 300px;
 }
 
 .cont-title > span {
-    margin-top: 2em;
+    margin-top: 1em;
     color: #2E2D2D;
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: 600;
+    text-shadow: 0 0 15px white;
+}
+
+.cont-texto-show {
+    height: 7.35em;
 }
 
 .cont-texto-show > p {
     margin-top: 1.5em;
     text-align: center;
     max-width: 350px;
+    font-size: .93rem;
 }
 
 footer {

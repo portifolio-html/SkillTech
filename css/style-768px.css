@@ -1,0 +1,47 @@
+
+main {
+    display: block;
+    margin-top: 3em;
+    text-align: left;
+}
+
+.cont-title {
+    max-width: 450px;
+}
+
+.cont-title > span {
+    font-size: 3rem;
+    text-align: left;
+}
+
+.cont-texto-show {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 7.5em;
+    padding-right: 20px;
+}
+
+.cont-texto-show > p {
+    margin-top: 4em;
+    text-align: left;
+    max-width: 450px;
+    font-size: .93rem;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.saiba-mais {
+
+    border: 0px solid #252525;
+    background-color: #c99d26c5;
+    box-shadow: 0 0 15px rgba(185, 161, 26, 0.562);
+}
+
+.saiba-mais > span {
+    font-size: 1.5rem;
+    color: rgb(240, 224, 219);
+
+}
