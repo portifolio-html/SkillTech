@@ -6,10 +6,13 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    
 }
 
 html {
     font-size: 16px;
+    background-color: aquamarine;
+    overflow: hidden;
 }
 
 .cont-header-principal {
@@ -29,13 +32,15 @@ html {
 
 .name-logo {
     font-size: 2rem;
-    color: rgb(180, 132, 27);
+    color: orange;
     margin-left: .2em;
 }
 
 .menu-suspenso-open {
+    cursor: pointer;
     height: 23px;
 }
+
 
 .linha-menu-open {
     width: 30px;
@@ -56,4 +61,14 @@ html {
 .linha-menu-open3 {
     position: relative;
     top: 16px;
+}
+
+a.link-menu {
+    color: beige;
+    padding: 3px 25px;
+}
+
+a.link-menu:hover {
+    border-top: 1px solid orangered;
+    color: orange;
 }

@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="../css/home/style-home-320.css" media="(min-width: 320px) and (max-width: 520px)">
+    <link rel="stylesheet" href="../css/home/style-home-320.css" media="(min-width: 320px)">
+    <link rel="stylesheet" href="../css/home/style-home-768.css" media="(min-width: 521px)">
+    <link rel="stylesheet" href="../css/home/style-home-1024.css" media="(min-width: 769px)">
     <link rel="stylesheet" href="../css/home/style-home-all.css" media="all">
 </head>
 <body>
@@ -16,13 +18,7 @@
                     <span class="name-logo">SkillTECH</span>
                 </div>
             </a>
-            <div class="cont-list-bar">
-                <div class="menu-suspenso-close">
-                    <div>
-                        <div class="linha-menu-close linha-menu-close1"></div>
-                        <div class="linha-menu-close linha-menu-close2"></div>
-                    </div>
-                </div>
+            <div class="cont-list-bar" id="nav-bar">
                 <ul class="list-bar">
                     <li class="op op1">
                         <a class="link-menu link-menu1" href="#">
@@ -51,7 +47,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="menu-suspenso-open">
+            <div class="menu-suspenso-open" id="menu-open">
                 <div class="linha-menu-open linha-menu-open1"></div>
                 <div class="linha-menu-open linha-menu-open2"></div>
                 <div class="linha-menu-open linha-menu-open3"></div>
@@ -65,4 +61,5 @@
 
     </footer>
 </body>
+<script src="../js/home/script-home.js"></script>
 </html>

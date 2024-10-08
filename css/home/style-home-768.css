@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.cont-header-principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-suspenso-open {
+    display: none;
+}
+
+.cont-list-bar {
+    position: sticky;
+    display: flex;
+    width: auto;
+    height: auto;
+    background-color: rgba(0, 255, 255, 0);
+}
+
+.menu-suspenso-close {
+    display: none;
+}
+
+.list-bar {
+    flex-direction: row;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.op {
+    margin: 0 8px;
+}
