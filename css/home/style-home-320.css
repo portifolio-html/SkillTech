@@ -41,3 +41,13 @@ body {
     justify-content: space-around;
 }
 
+.cont-img-principal > img {
+    width: 100%;
+}
+
+.secao1 > .title {
+    max-width: 400px;
+}
+
+
+

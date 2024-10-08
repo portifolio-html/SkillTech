@@ -52,6 +52,7 @@ html {
 .linha-menu-open1 {
     position: relative;
     top: 0;
+    transition: .5s;
 }
 
 .menu-list-close > .linha-menu-open1 {
@@ -73,6 +74,7 @@ html {
 .linha-menu-open3 {
     position: relative;
     top: 16px;
+    transition: .5s;
 }
 
 .menu-list-close > .linha-menu-open3 {
