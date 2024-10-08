@@ -20,10 +20,16 @@ body {
     justify-content: center;
     position: absolute;
     top: 3.63em;
-    right: 0%;
+    right: -40%;
+    transition: .5s;
     width: 40%;
     height: 300px;
-    background-color: #26b3b3;
+    background-color: #123636;
+}
+
+.cont-list-bar-on {
+    right: 0;
+    transition: .5s;
 }
 
 .list-bar {
@@ -34,3 +40,4 @@ body {
     align-items: center;
     justify-content: space-around;
 }
+

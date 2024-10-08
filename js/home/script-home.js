@@ -1,10 +1,9 @@
 
-var menu = document.getElementById("menu-open")
+var menu = document.querySelector("#menu-open")
 
-
-function openmenu(){
-    var lista = document.getElementById("nav-bar")
-    lista.style.background="black"
-}
-
-menu.onclick(openmenu)
+menu.addEventListener("click", function(){
+    var lista = document.querySelector('#nav-bar')
+    var close = document.querySelector('#menu-open')
+    lista.classList.toggle("cont-list-bar-on")
+    close.classList.toggle("menu-list-close")
+})

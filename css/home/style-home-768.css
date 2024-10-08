@@ -5,7 +5,7 @@
     flex-direction: column;
 }
 
-.menu-suspenso-open {
+#menu-open {
     display: none;
 }
 
@@ -15,10 +15,6 @@
     width: auto;
     height: auto;
     background-color: rgba(0, 255, 255, 0);
-}
-
-.menu-suspenso-close {
-    display: none;
 }
 
 .list-bar {
