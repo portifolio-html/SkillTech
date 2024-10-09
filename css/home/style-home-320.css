@@ -65,10 +65,10 @@ img {
 .cursos-individuais {
     width: 100%;
     height: 14em;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.473);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.315);
     margin-top: 25px;
     max-width: 420px;
-    border-radius: 5px;
+    border-radius: 1px;
     overflow: hidden;
 }
 
@@ -98,12 +98,14 @@ div.img > span {
     font-size: 1.2rem;
     font-weight: 600;
     margin: .4em auto;
-    padding-left: .4em;
+    padding-left: .6em;
 }
 
 .cursos-individuais > p {
+    line-height: 1.4em;
+    font-size: .8rem;
     margin-top: .4em;
-    padding-left: .4em;
+    padding-left: 1em;
     padding-bottom: .5em;
     max-width: 300px;
 }
@@ -171,4 +173,88 @@ div.tempo {
 }
 .lista-cursos > li:nth-last-child(1) {
     margin-bottom: 10px;
+}
+
+
+/* passo a passo */
+
+.cont-como-funciona {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.passos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
+    margin: 10px auto;
+}
+
+.title-funcao {
+    padding-bottom: 20px;
+}
+
+.title-funcao > h2 {
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    background-color: #123636;
+    text-align: center;
+    padding: .8em;
+    border-radius: 5px 20px;
+    margin-bottom: 15px;
+}
+
+.title-funcao > p {
+    text-align: center;
+    font-size: .8rem;
+}
+
+.img-passo {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: #1df8f8;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.img-passo::before {
+    position: absolute;
+    transform: translate(-20%, 45%);
+    content: "";
+    width: 135px;
+    height: 130px;
+    background: linear-gradient(-45deg, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+    border-radius: 100%;
+}
+
+.img-passo::after {
+    position: absolute;
+    transform: translate(-20%, 60%);
+    content: "";
+    width: 110px;
+    height: 110px;
+    background-color: #123636;
+    border-radius: 100%;
+}
+
+.passos > h3 {
+    margin-top: .3em;
+    padding-bottom: .3em;
+}
+
+.passos > p {
+    font-size: .8rem;
+    text-align: center;
+}
+
+.cont-como-funciona > p {
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 600;
+    color: orangered;
+    margin-top: 15px;
 }
