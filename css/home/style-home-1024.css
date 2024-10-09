@@ -3,3 +3,9 @@
 .cont-header-principal {
     flex-direction: row;
 }
+
+.cursos-individuais {
+    max-width: 310px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
