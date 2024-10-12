@@ -9,3 +9,12 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.pacote-cursos {
+    max-width: 270px;
+}
+
+main {
+    position: relative;
+    top: 3em;
+}

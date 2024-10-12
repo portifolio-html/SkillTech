@@ -14,6 +14,12 @@ html {
     overflow-x: hidden;
 }
 
+header {
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
 .cont-header-principal {
     background-color: rgb(18, 54, 54);
     padding: 5px 0;
@@ -91,6 +97,11 @@ a.link-menu {
 a.link-menu:hover {
     border-top: 1px solid orangered;
     color: orange;
+}
+
+main {
+    position: relative;
+    top: 3em;
 }
 
 main, footer {
