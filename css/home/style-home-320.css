@@ -137,14 +137,15 @@ div.img > span {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    align-items: center;
+    align-items: start;
     width: 100%;
-    height: 420px;
-    background-color: #f0f0f0;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.226);
+    background: url("../../image/Back-ground/card-1.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.103);
     overflow: hidden;
     padding: 7px;
+    padding-left: 1em;
     margin-top: 20px;
     max-width: 320px;
     margin-left: 10px;
@@ -152,52 +153,72 @@ div.img > span {
 }
 
 .pacote-cursos > div:nth-child(1) {
-    width: 100%;
-    height: 10em;
-    background-color: #1df8f8;
-    border-radius: 5px;
-}
-
-div.tempo {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1.3em;
-    padding-bottom: 1em;
-}
-
-.time, .inicio {
-    border: 1px solid rgb(255, 0, 0);
-    border-radius: 3px;
-    padding: 3px 5px;
-    font-size: .7rem;
-    color: rgb(255, 0, 0);
+    margin-top: 1.2em;
+    color: #EDEDED;
+    background-color: #132da1;
+    border-radius: 100px;
+    padding: 2px 15px;
 }
 
 .pacote-cursos > h2 {
-    font-size: 1rem;
+    font-size: 1.4rem;
+    margin-top: .5em;
     padding-bottom: .7em;
+    color: #EDEDED;
+}
+
+.pacote-cursos > h3 {
+    font-size: 1.2rem;
+    margin-top: -.5em;
+    padding-bottom: .7em;
+    color: #4e4bfc;
+}
+
+.pacote-cursos > p {
+    font-size: .9rem;
+    max-width: 80%;
+    margin-top: -.5em;
+    padding-bottom: .7em;
+    color: #ffffff;
 }
 
 .lista-cursos {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .lista-cursos > li {
-    margin-top: 5px;
+    margin-top: 10px;
     font-size: 1rem;
+    color: #EDEDED;
 }
 .lista-cursos > li:nth-last-child(1) {
     margin-bottom: 10px;
 }
 
-.obs {
-    color: #EDEDED;
-    padding: .6em 2em;
-    border-radius: 5px;
+.observacoes {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 1em;
+}
+
+.observacoes div:first-child {
     background-color: #19628F;
+    color: #EDEDED;
+    font-weight: 0;
+}
+
+.obs {
+    display: flex;
+    justify-content: center;
+    color: #19628F;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 5px;
+    padding: .4em 0;
+    border-radius: 100px;
+    background-color: #19628f00;
+    border: 1.5px solid #19628F;
 }
 
 
