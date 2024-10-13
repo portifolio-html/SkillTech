@@ -53,19 +53,40 @@ p {
     justify-content: space-around;
 }
 
+
+
+/*texto inicio*/
+
 img {
     width: 100%;
 }
 
 .title {
-    margin-top: 1em;
+    margin-top: 1.5em;
     padding-bottom: 1em;
-    text-align: center;
+    text-align: left;
     font-size: 1rem;
 }
 
-.secao1 > .title {
-    max-width: 400px;
+.secao1, .secao2 {
+    width: 100%;
+}
+
+.cont-img-principal {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.secao1 > span {
+    margin-top: 2em;
+    font-size: 2.5rem;
+    z-index: 1;
+    padding-bottom: 15px;
+}
+
+.color {
+    color: #132da1;
 }
 
 /*cursos individuais*/
