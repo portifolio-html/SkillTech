@@ -62,27 +62,29 @@ img {
 }
 
 .title {
-    margin-top: 1.5em;
+    margin-top: 3em;
     padding-bottom: 1em;
     text-align: left;
-    font-size: 1rem;
+    font-size: 1.05rem;
+    width: 90%;
+}
+
+.secao1 {
+    height: 500px;
+    background: url("../../image/Nova pasta/teste.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .secao1, .secao2 {
     width: 100%;
 }
 
-.cont-img-principal {
-    position: absolute;
-    top: 0;
-    z-index: 0;
-}
-
 .secao1 > span {
     margin-top: 2em;
     font-size: 2.5rem;
-    z-index: 1;
-    padding-bottom: 15px;
+    z-index: 2;
+    padding-bottom: 1em;
 }
 
 .color {
