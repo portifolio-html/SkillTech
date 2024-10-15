@@ -69,13 +69,6 @@ img {
     width: 90%;
 }
 
-.secao1 {
-    height: 500px;
-    background: url("../../image/Nova pasta/teste.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .secao1, .secao2 {
     width: 100%;
 }

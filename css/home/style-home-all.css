@@ -124,6 +124,12 @@ main, footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 600px;
+    background: url("../../image/Nova pasta/teste.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+
 }
 
 .secao1 {
