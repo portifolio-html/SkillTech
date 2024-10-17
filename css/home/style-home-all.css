@@ -115,8 +115,8 @@ main, footer {
 }
 
 .secoes {
-    width: 90%;
-    padding-top: 1.5em;
+    width: 100%;
+    padding: 1.5em;
     margin: auto;
 }
 
@@ -141,6 +141,27 @@ main, footer {
     background-color: #1F1F1F;
     color: #F5F5F5;
     padding: 25px 15px;
+}
+
+.secao5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F1F1F;
+    height: 400px;
+}
+
+.secao7 {
+    background-color: #000000;
+    color: #F5F5F5;
+}
+.secao8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    background-color: #1F1F1F;
+    color: #F5F5F5;
 }
 
 .cont-img-principal > img {
