@@ -73,6 +73,10 @@ img {
     width: 100%;
 }
 
+.secao1 > .cont-secao {
+    margin-top: 7em;
+}
+
 .secao1 > .cont-secao > span {
     margin-top: 2em;
     font-size: 2.5rem;
@@ -219,6 +223,12 @@ div.img > div > .fundo {
     padding-right: 20px;
 }
 
+@media (max-width: 375px) {
+    .rect > span {
+        font-size: 1.5rem;
+    }
+}
+
 .rect > .logo {
     width: 4.5em;
 }
@@ -339,11 +349,18 @@ div.img > span {
     color: #19628F;
     font-weight: 600;
     width: 100%;
-    margin-top: 5px;
+    margin-top: 6px;
     padding: .4em 0;
     border-radius: 100px;
     background-color: #19628f00;
     border: 1.5px solid #19628F;
+}
+
+.obs-title {
+    min-width: 280px;
+    width: 80%;
+    margin-top: 2em;
+    font-size: 1.2rem;
 }
 
 

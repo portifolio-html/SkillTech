@@ -116,7 +116,7 @@ main, footer {
 
 .secoes {
     width: 100%;
-    padding: 1.5em;
+    padding: 2em;
     margin: auto;
 }
 
@@ -135,12 +135,14 @@ main, footer {
 .secao1 {
     background-color: #000000;
     color: #F5F5F5;
-    padding: 0 15px 25px 15px;
+    padding: 0 2em 25px;
+    height: 620px;
 }
+
 .secao2 {
     background-color: #1F1F1F;
     color: #F5F5F5;
-    padding: 25px 15px;
+    padding: 40px 2em;
 }
 
 .secao5 {
@@ -167,3 +169,13 @@ main, footer {
 .cont-img-principal > img {
     width: 400px;
 }
+
+.title > h1 {
+    text-transform: lowercase;
+    font-weight: 0;
+}
+
+.principal {
+    text-indent: 2.5em;
+}
+
