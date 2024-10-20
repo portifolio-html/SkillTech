@@ -153,6 +153,11 @@ main, footer {
     height: 400px;
 }
 
+.secao6-1 {
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+}
+
 .secao7 {
     background-color: #000000;
     color: #F5F5F5;
