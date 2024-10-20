@@ -60,3 +60,83 @@ main {
     min-width: 750px;
     flex-direction: row;
 }
+
+/* slide #01 */
+
+.slide1 > .efeito1 > .cont-infor {
+    position: relative;
+    width: 90%;
+    max-width: 820px;
+    margin: auto;
+}
+
+.slide1 > .efeito1 > .cont-infor > img {
+    position: absolute;
+    width: 460px;
+    left: 0%;
+    top: 50%;
+    transform: translate(0, -25%);
+    z-index: 0;
+}
+
+.slide1 > .efeito1 > .cont-infor > span {
+    position: relative;
+    color: #fff;
+    font-size: 2rem;
+    padding-bottom: .4em;
+    z-index: 1;
+    top: 0px;
+}
+
+.slide1 > .efeito1 > .cont-infor > h2 {
+    position: relative;
+    background-color: #A3A901;
+    color: #00150F;
+    padding: 3px 15px;
+    border-radius: 10px;
+    font-size: 3.5rem;
+    z-index: 1;
+    top: 0px;
+    left: 100px;
+}
+
+/* slide #02 */
+
+.slide2 > .efeito1 > .cont-infor {
+    max-width: 768px;
+    height: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: start;
+}
+.slide2 > .efeito1 > .cont-infor > img {
+    width: 350px;
+    top: 0;
+    right: -50px;
+    transform: translate(0, 0);
+}
+
+.slide2 > .efeito1 > .cont-infor > span {
+    font-size: 2rem;
+    top: 50px;
+    left: 0;
+
+}
+
+.slide2 > .efeito1 > .cont-infor > h2 {
+    font-size: 7rem;
+    top: 50px;
+    padding: 0;
+}
+
+.slide2 > .efeito1 > .cont-infor > .line {
+    width: 320px;
+    left: 0;
+    top: 325px;
+}
+
+.slide2 > .efeito1 > .cont-infor > h3 {
+    top: 40px;
+    left: 330px;
+    font-size: 1.5rem;
+}

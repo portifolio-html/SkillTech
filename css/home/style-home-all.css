@@ -147,10 +147,12 @@ main, footer {
 
 .secao5 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #1F1F1F;
     height: 400px;
+    padding: 0;
 }
 
 .secao6-1 {
@@ -184,3 +186,330 @@ main, footer {
     text-indent: 2.5em;
 }
 
+/*slides cursos*/
+
+.slide-cursos {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+
+.slide-cursos > .slide {
+    position: absolute;
+    direction: ltr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* slide #01 */
+
+.slide1 {
+    background: linear-gradient(to bottom, #575C1C, #001415);
+    animation: anime ease-in-out;
+}
+
+.slide1 > .efeito1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 100%;
+    height: 100%;
+    background: url(../../image/Slide/fundo-js.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right bottom;    
+}
+
+.slide1 > .efeito1 > .cont-infor {
+    display: flex;
+    height: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 20px;
+}
+.slide1 > .efeito1 > .cont-infor > img {
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-28%);
+    z-index: 0;
+}
+
+.slide1 > .efeito1 > .cont-infor > span {
+    position: relative;
+    color: #fff;
+    font-size: 1.5rem;
+    padding-bottom: .4em;
+    z-index: 1;
+    top: 50px;
+}
+
+.slide1 > .efeito1 > .cont-infor > h2 {
+    position: relative;
+    background-color: #A3A901;
+    color: #00150F;
+    padding: 3px 15px;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    z-index: 1;
+    top: 50px;
+}
+/* slide #02 */
+
+.slide2 {
+    background: linear-gradient(to bottom, #ac8929, #fffdf8);
+    animation: anime ease-in-out;
+}
+
+.slide2 > .efeito1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 100%;
+    height: 100%;
+    background: url(../../image/Slide/fundo-py.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left top;    
+}
+
+.slide2 > .efeito1::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-45deg, #3470a200, #3470a250);
+    z-index: 0;
+}
+
+.slide2 > .efeito1 > .cont-infor {
+    display: flex;
+    height: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+.slide2 > .efeito1 > .cont-infor > img {
+    width: 200px;
+    position: absolute;
+    top: 0;
+    transform: translate(0, 0);
+    z-index: 0;
+}
+
+.slide2 > .efeito1 > .cont-infor > span {
+    position: relative;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 3px 15px;
+    z-index: 1;
+    top: 95px;
+    background-color: #3471A2;
+    border-radius: 10px;
+}
+
+.slide2 > .efeito1 > .cont-infor > h2 {
+    position: relative;
+    color: #00150F;
+    font-size: 4rem;
+    z-index: 1;
+    top: 95px;
+    padding: 0;
+}
+
+.slide2 > .efeito1 > .cont-infor > .line {
+    position: absolute;
+    width: 160px;
+    left: 0;
+    top: 340px;
+    border-bottom: 2px solid black;
+}
+
+.slide2 > .efeito1 > .cont-infor > h3 {
+    position: relative;
+    color: #00150F;
+    font-size: 1rem;
+    z-index: 1;
+    top: 90px;
+    right: -85px;
+    padding: 0;
+}
+/* slide #03 */
+
+.slide3 {
+    background: linear-gradient(to bottom, #D3900C, #CCCBC6);
+    animation: anime ease-in-out;
+}
+
+.slide3 > .efeito1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 100%;
+    height: 100%;
+    background: url(../../image/Slide/fundo-bi.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left top;   
+}
+
+.slide3 > .efeito1::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-30deg, #CCCBC6, #ffbe0ca4);
+    z-index: 0;
+}
+
+.slide3 > .efeito1 > .texto-efeito{
+    position: relative;
+    min-width: 100%;
+    height: 100%;
+    background: url(../../image/Slide/texto-fundo-bi.png);
+    background-size: cover;
+    background-position: center bottom;
+    top: 50px;
+    z-index: 1;
+}
+.slide3 > .efeito1 > .texto-efeito > .cont-infor {
+    display: flex;
+    height: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+.slide3 > .efeito1 > .texto-efeito  > .cont-infor > .logo1 {
+    width: 200px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    transform: translate(0, 0);
+    z-index: 0;
+}
+
+.slide3 > .efeito1 > .texto-efeito  > .cont-infor > .logo2 {
+    width: 30%;
+    position: absolute;
+    bottom: 80px;
+    right: 20px;
+    transform: translate(0, 0);
+    z-index: 2;
+}
+.slide3 > .efeito1 > .texto-efeito  > .cont-infor > .logo3 {
+    width: 120px;
+    position: absolute;
+    top: -30px;
+    right: 20px;
+    transform: translate(0, 0);
+    z-index: -1;
+}
+
+.slide3 > .efeito1 > .texto-efeito  > .cont-infor > p {
+    position: relative;
+    color: #fff;
+    width: 180px;
+    max-width: 300px;
+    text-align: center;
+    font-size: .6rem;
+    padding: 10px 15px;
+    z-index: 1;
+    top: 80px;
+    left: -50px;
+    background-color: #312d2d;
+    border-radius: 10px;
+}
+
+.slide3 > .efeito1 > .texto-efeito  > .cont-infor > h2 {
+    position: relative;
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.473);
+    z-index: 1;
+    padding: 0;
+    top: 80px;
+    left: -50px;
+}
+
+.slide3 > .efeito1 > .texto-efeito  > .cont-infor > .line {
+    position: absolute;
+    width: 160px;
+    left: 0;
+    top: 340px;
+    border-bottom: 2px solid black;
+}
+
+.slide3 > .efeito1 > .texto-efeito  > .cont-infor > h3 {
+    position: relative;
+    color: #00150F;
+    font-size: 1rem;
+    z-index: 1;
+    top: 90px;
+    right: -85px;
+    padding: 0;
+}
+
+
+.slide4 {
+    background-color: green;
+    animation: anime ease-in-out;
+}
+.slide5 {
+    background-color: purple;
+    animation: anime ease-in-out;
+}
+
+input#btn1:checked ~ div.slide1{
+    animation: anime ease-in-out;
+    z-index: 4;
+}
+input#btn2:checked ~ div.slide2{
+    animation: anime ease-in-out;
+    z-index: 4;
+}
+input#btn3:checked ~ div.slide3{
+    animation: anime ease-in-out;
+    z-index: 4;
+}
+input#btn4:checked ~ div.slide4{
+    animation: anime ease-in-out;
+    z-index: 4;
+}
+input#btn5:checked ~ div.slide5{
+    animation: anime ease-in-out;
+    z-index: 4;
+}
+
+
+@keyframes anime{
+    0% {
+        opacity: 0%;
+    }
+    20% {
+        opacity: 100%;
+    }
+    80% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
