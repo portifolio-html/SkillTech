@@ -454,13 +454,107 @@ main, footer {
 }
 
 
+/* slide #04 */
+
 .slide4 {
-    background-color: green;
+    background: linear-gradient(to right, #A13909, #085696);
     animation: anime ease-in-out;
 }
-.slide5 {
-    background-color: purple;
-    animation: anime ease-in-out;
+
+.slide4 > .efeito1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 100%;
+    height: 100%;
+    background: url(../../image/Slide/fundo-web.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right top;   
+}
+
+.slide4 > .efeito1::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #ffffff, #ffffff00);
+    z-index: 0;
+}
+
+.slide4 > .efeito1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(85deg, #781400 20%, #ffffff00);
+    z-index: 0;
+}
+
+.slide4 > .efeito1 > .cont-infor {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.slide4 > .efeito1 > .cont-infor > img {
+    width: 250px;
+    margin: 5px 0;
+    transform: translate(0, 0);
+    z-index: 0;
+}
+
+.slide4 > .efeito1 > .cont-infor > .init {
+    position: relative;
+    color: orangered;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    z-index: 1;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.slide4 > .efeito1 > .cont-infor > .sub {
+    position: relative;
+    color: #fff;
+    font-size: 1.5rem;
+    z-index: 1;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.slide4 > .efeito1 > .cont-infor > h2 {
+    position: relative;
+    color: #3471A2;
+    font-size: 3rem;
+    z-index: 1;
+    padding: 0;
+}
+
+.slide4 > .efeito1 > .cont-infor > .infor-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide4 > .efeito1 > .cont-infor > .infor-line > .line {
+    width: 160px;
+    border-bottom: 2px solid black;
+    margin-right: 10px;
+}
+
+.slide4 > .efeito1 > .cont-infor > .infor-line  > h3 {
+    position: relative;
+    color: #00150F;
+    font-size: 1rem;
+    z-index: 1;
+    padding: 0;
 }
 
 input#btn1:checked ~ div.slide1{

@@ -77,5 +77,55 @@ main {
     font-size: 1rem;
 }
 .slide3 > .efeito1 > .texto-efeito  > .cont-infor > div > h2 {
-    font-size: 5rem;
+    font-size: 4.5rem;
+}
+
+/* slide #04 */
+
+.slide4 > .efeito1 > .cont-infor > .init {
+    position: relative;
+    color: orangered;
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    z-index: 1;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.slide4 > .efeito1 > .cont-infor > .sub {
+    position: relative;
+    color: #fff;
+    font-size: 2rem;
+    z-index: 1;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.slide4 > .efeito1 > .cont-infor > img {
+    width: 350px;
+    margin: 5px 0;
+    transform: translate(0, 0);
+    z-index: 0;
+}
+
+.slide4 > .efeito1 > .cont-infor > .infor-line {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide4 > .efeito1 > .cont-infor > .infor-line > .line {
+    width: 220px;
+    border-bottom: 3px solid black;
+    margin-right: 10px;
+}
+
+.slide4 > .efeito1 > .cont-infor > .infor-line  > h3 {
+    position: relative;
+    color: #00150F;
+    font-size: 1.5rem;
+    z-index: 1;
+    padding: 0;
 }
