@@ -413,18 +413,34 @@ div.img > span {
 }
 
 .img-passo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    width: 150px;
-    height: 150px;
-    background-color: #1df8f8;
-    border-radius: 100%;
     overflow: hidden;
+    height: 150px;
+}
+
+.img-passo > img {
+    filter: drop-shadow(0, 0, 50px, black);
+}
+
+.img-passo > .img1 {
+    width: 100px;
+}
+
+.img-passo > .img2 {
+    width: 150px;
+}
+
+.img-passo > .img3 {
+    width: 120px;
 }
 
 .img-passo::before {
     position: absolute;
     transform: translate(-20%, 45%);
-    content: "";
+    /*content: "";*/
     width: 135px;
     height: 130px;
     background: linear-gradient(-45deg, rgba(255, 255, 255, 0), rgb(255, 255, 255));
@@ -434,7 +450,7 @@ div.img > span {
 .img-passo::after {
     position: absolute;
     transform: translate(-20%, 60%);
-    content: "";
+    /*content: "";*/
     width: 110px;
     height: 110px;
     background-color: #123636;
