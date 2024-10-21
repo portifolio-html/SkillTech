@@ -4,8 +4,12 @@
     flex-direction: row;
 }
 
+.cont-cursos-individuais {
+    flex-wrap: wrap;
+}
+
 .cursos-individuais {
-    max-width: 350px;
+    max-width: 370px;
     margin-left: 10px;
     margin-right: 10px;
 }
