@@ -65,44 +65,17 @@ main {
     top: 80px;
 }
 
-@media (min-width: 620px) {
-    /* slide #02 */
+/* slide 3*/
 
-    .slide2 > .efeito1 > .cont-infor {
-        width: 90%;
-        height: 100%;
-        position: relative;
-        justify-content: center;
-        align-items: start;
-    }
-    .slide2 > .efeito1 > .cont-infor > img {
-        width: 300px;
-        top: 15%;
-        right: -50px;
-        transform: translate(0, 0);
-    }
+.slide3 > .efeito1 > .texto-efeito  > .cont-infor > .logo2 {
+    width: 150px;
+    top: -25px;
+}
 
-    .slide2 > .efeito1 > .cont-infor > span {
-        font-size: 1.5rem;
-        top: 50px;
-        left: 0;
-
-    }
-
-    .slide2 > .efeito1 > .cont-infor > h2 {
-        font-size: 5.5rem;
-        top: 50px;
-        padding: 0;
-    }
-
-    .slide2 > .efeito1 > .cont-infor > .line {
-        width: 220px;
-        left: 0;
-        top: 305px;
-    }
-
-    .slide2 > .efeito1 > .cont-infor > h3 {
-        top: 40px;
-        left: 230px;
-    }
+.slide3 > .efeito1 > .texto-efeito  > .cont-infor > div > p {
+    width: 350px;
+    font-size: 1rem;
+}
+.slide3 > .efeito1 > .texto-efeito  > .cont-infor > div > h2 {
+    font-size: 5rem;
 }

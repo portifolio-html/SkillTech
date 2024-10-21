@@ -2,7 +2,7 @@
 var count =0;
 setInterval(function(){
     count++;
-    if(count>5){
+    if(count>4){
         count=1;
     }
     var radio=document.getElementById("btn"+count)
