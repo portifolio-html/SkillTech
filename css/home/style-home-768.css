@@ -138,29 +138,13 @@ main {
     justify-content: left;
     margin-top: 1.5em;
 }
-.icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 100px;
-    border: 1px solid #a9adb82f;
-}
-
-.icon > img {
-    width: 25px;
-}
 
 .contato > .infor {
-    display: flex;
-    flex-direction: column;
     align-items: start;
     margin-left: 1em;
     margin-top: 0;
 }
 .contato > .infor > span {
-    font-size: 1rem;
     margin-top: 3px;
 }
 
