@@ -5,8 +5,18 @@
     flex-direction: row;
 }
 
-/**/
+/*MIAN*/
 
+main {
+    padding-top: 2.5em;
+}
+
+/*SEÇÕES*/
+
+.cont-principal {
+    max-width: 820px;
+    margin: auto;
+}
 
 /**/
 

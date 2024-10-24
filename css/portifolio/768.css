@@ -29,11 +29,35 @@
     margin: 0 8px;
 }
 
-/**/
+/*MAIN*/
 
-/**/
+main {
+    padding-top: 6em;
+}
 
-/**/
+/*SEÇÕES*/
+
+.secao-main-one {
+    display: flex;
+    align-items: center;
+    height: 400px;
+}
+
+/*SOBRE MIM*/
+
+.user {
+    display: flex;
+}
+
+.img-user > img {
+    width: 300px;
+}
+
+.bem-vindo > h2 {
+    font-size: 2.5rem;
+}
+
+
 
 /**/
 
