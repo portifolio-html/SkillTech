@@ -208,6 +208,78 @@ p {
     text-align: justify;
 }
 
+/*GRAFICOS*/
+
+.infor-grafico {
+    margin: auto;
+    margin-top: 20px;
+    max-width: 500px;
+}
+
+.grafico {
+    padding-bottom: 10px;
+}
+
+.header-grafico {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.grafico-bar {
+    position: relative;
+    width: 100%;
+    height: 5px;
+    background-color: #a5afc2;
+    border-radius: 100px;
+    overflow: hidden;
+
+}
+
+.grafico-bar::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: orangered;
+}
+
+.grafico1 > .grafico-bar::after {
+    width: 75%;
+}
+
+.grafico2 > .grafico-bar::after {
+    width: 65%;
+}
+
+.grafico3 > .grafico-bar::after {
+    width: 65%;
+}
+
+.grafico4 > .grafico-bar::after {
+    width: 50%;
+}
+
+.grafico5 > .grafico-bar::after {
+    width: 35%;
+}
+
+.grafico6 > .grafico-bar::after {
+    width: 30%;
+}
+
+.grafico7 > .grafico-bar::after {
+    width: 20%;
+}
+
+.grafico8 > .grafico-bar::after {
+    width: 20%;
+}
+
 /*FORMATAÇÃO EXPERIENCIA E EDUCACÃO*/
 
 .heade-infor {
