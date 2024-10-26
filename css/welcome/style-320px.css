@@ -122,6 +122,7 @@ footer {
     background-color: #2e2d2d;
 }
 
+
 .saiba-mais {
     
     display: flex;
@@ -132,6 +133,10 @@ footer {
     border-radius: 100px;
     border: 1px solid #f6c53f;
     background-color: #f6c53f2c;
+}
+
+.saiba-mais > a {
+    color: antiquewhite;
 }
 
 .saiba-mais > span {

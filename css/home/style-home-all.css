@@ -104,11 +104,8 @@ a.link-menu:hover {
 
 main {
     position: relative;
-    top: 3em;
-}
-
-main, footer {
     width: 100%;
+    top: 3em;
 }
 
 .cont-main-principal, .cont-footer-principal {
@@ -119,6 +116,11 @@ main, footer {
 .secoes {
     width: 100%;
     padding: 2em;
+}
+
+hr.secao {
+    width: 95%;
+    margin: auto;
 }
 
 .secao1 {
@@ -154,22 +156,24 @@ main, footer {
     background-color: #1F1F1F;
     height: 400px;
     padding: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .secao6-1 {
-    padding-bottom: 1em;
-    margin-bottom: 2em;
+    margin-bottom: 50px;
+    color: #000000;
 }
 
 .secao7 {
-    background-color: #000000;
+    background-color: #1F1F1F;
     color: #F5F5F5;
 }
 .secao8 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1F1F1F;
+    background-color: #000000;
     color: #F5F5F5;
 }
 
@@ -599,6 +603,36 @@ input#btn5:checked ~ div.slide5{
 .porque-estudar {
     padding-bottom: 25px;
 }
+
+.cont-slide-infor {
+    padding-bottom: 25px;
+}
+
+.cont-slide-infor > ul > li {
+    list-style: square;
+    list-style-position: unset;
+}
+
+.cont-title > h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.porque-estudar > p {
+    text-indent: 2.5em;
+}
+
+.slide-infor > h3 {
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+.slide-infor > p {
+    margin-top: 15px;
+    padding-bottom: 15px;
+    text-indent: 2.5em;
+}
+
 
 /* footer */
 
