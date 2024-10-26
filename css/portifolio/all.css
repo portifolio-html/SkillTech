@@ -118,9 +118,10 @@ main {
 .secao-main-one {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #000;
     color: #bbbab7;
-    height: 610px;
+    height: 100vh;
 }
 
 .secao-main-two {
@@ -133,6 +134,18 @@ main {
 }
 .secao-main-five {
     padding-top: 0;
+}
+
+/*INICIAL*/
+
+.bem-vindo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bem-vindo > h2 {
+    font-size: 3rem;
 }
 
 
@@ -330,6 +343,31 @@ p {
     margin-top: 1em;
     padding-bottom: 1em;
 }
+
+.cont-infor > p {
+    max-width: 500px;
+}
+
+/*CURRICULO*/
+
+.curriculo > .cont-principal {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.cont-button {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #FFA500;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color: #000;
+}
+
 
 /*FOOTER*/
 

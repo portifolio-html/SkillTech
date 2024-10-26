@@ -38,3 +38,21 @@
     align-items: center;
     justify-content: space-around;
 }
+
+/*INICIAL*/
+
+.bem-vindo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bem-vindo > h2 {
+    font-size: 2rem;
+    text-align: center;
+    max-width: 300px;
+}
+.bem-vindo > h3 {
+    font-size: 1rem;
+    text-align: center;
+}

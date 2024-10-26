@@ -32,7 +32,7 @@
 /*MAIN*/
 
 main {
-    padding-top: 6em;
+    padding-top: 3em;
 }
 
 /*SEÇÕES*/
@@ -40,24 +40,31 @@ main {
 .secao-main-one {
     display: flex;
     align-items: center;
-    height: 400px;
 }
 
-/*SOBRE MIM*/
+/*INICIAL*/
 
-.user {
+.bem-vindo {
     display: flex;
-}
-
-.img-user > img {
-    width: 300px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .bem-vindo > h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    text-align: center;
+    max-width: 400px;
+}
+.bem-vindo > h3 {
+    font-size: 1.5rem;
+    text-align: center;
 }
 
+/*FORMATAÇÃO EXPERIENCIA E EDUCACÃO*/
 
+.cont-infor > p {
+    text-align: left;
+}
 
 /**/
 
