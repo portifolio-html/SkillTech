@@ -50,7 +50,7 @@ div.logo-header > img.img-logo {
 }
 
 div.logo-header > a {
-    color: #f6c53f;
+    color: #FFA500;
     font-size: 2rem;
 }
 
@@ -59,11 +59,13 @@ div.logo-header > a {
 }
 
 body {
+    position: relative;
     background-image: url("../../image/Nova pasta/width-768-2.jpg");
     background-position: center 0;
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: local;
+    height: 100vh;
 }
 
 .menu-nav-bar > .nav-bar {
@@ -76,7 +78,7 @@ main {
     text-align: center;
     width: 90%;
     margin: 0 auto;
-    margin-top: 9.8em;
+    margin-top: 12em;
 }
 
 .cont-main {
@@ -114,12 +116,13 @@ main {
 }
 
 footer {
-
+    position: absolute;
     display: flex;
     margin-top: 2.85em;
     justify-content: center;
     width: 100%;
     background-color: #2e2d2d;
+    bottom: 0;
 }
 
 
