@@ -107,6 +107,7 @@ a.link-menu:hover {
 main {
     padding-top: 3em;
     padding-bottom: 30px;
+    background-color: #F0F3F5;
 }
 
 /*SEÇÕES*/
@@ -117,6 +118,7 @@ main {
 }
 
 .secao-main-one {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,17 +127,87 @@ main {
     height: 100vh;
 }
 
-.secao-main-two {
-    background-color: #1F1F1F;
-    color: #bbbab7;
+.cont-principal-main > img {
+    display: none;
 }
 
-.secao-main-for {
-    padding-bottom: 0;
+.cont-inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.secao-main-five {
-    padding-top: 0;
+
+.cont-inicio > h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    max-width: 400px;
 }
+.cont-inicio > img {
+    background: radial-gradient(rgba(255, 255, 255, 0.425) 30%, rgba(0, 128, 0, 0) 70%);
+    width: 100%;
+    max-width: 350px;
+}
+.cont-inicio > h2 {
+    font-size: 1.8rem;
+    max-width: 400px;
+}
+
+.cont-inicio > a {
+    width: 100%;
+}
+
+.cont-inicio > a > div {
+    background-color: #fad323;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+    color: #000;
+}
+
+
+.cont-principal {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px 20px;
+    max-width: 300px;
+    margin: auto;
+}
+
+.cont-servicos > h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.cont-servicos > hr {
+    margin: 10px 0;
+}
+
+.servicos {
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+.servicos > ul {
+    display: grid;
+    gap: 15px;
+}
+
+.servicos > ul > li {
+    list-style: square;
+    margin-left: 25px;
+}
+
+.cont-servicos > a > div {
+    background-color: #63B775;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+    color: #ffffff;
+}
+
+
 
 /*INICIAL*/
 
