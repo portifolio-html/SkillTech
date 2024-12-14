@@ -1,14 +1,34 @@
 
-
 main {
     display: block;
-    margin-top: 1.5em;
+    margin-top: 3.5em;
     text-align: left;
 }
 
 body {
     width: 100%;
     overflow: hidden;
+}
+
+body {
+    position: relative;
+    background-image: url("../../image/Nova pasta/back-finality-two.jpg");
+    background-position: left -50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    height: 100vh;
+}
+
+.cont-header-bar {
+    width: 100%;
+    background-color: #16161600;
+}
+
+div.logo-header > a {
+    color: rgb(250, 235, 28);
+    font-size: 3rem;
+    text-shadow: 0 0 5px rgba(32, 32, 32, 0.801);
 }
 
 .cont-main {
@@ -20,11 +40,12 @@ body {
 }
 
 .cont-title {
-    max-width: 450px;
+    max-width: 400px;
+    text-align: center;
 }
 
 .cont-title > span {
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: left;
 }
 
@@ -37,21 +58,22 @@ body {
 }
 
 .cont-texto-show > p {
-    margin-top: 4em;
-    text-align: left;
-    max-width: 450px;
+    margin-top: 6em;
+    text-align: justify;
+    max-width: 400px;
     font-size: .93rem;
+    padding: 0;
 }
 
 footer {
-    position: relative;
-    justify-content: left;
-    background-color: rgba(255, 255, 255, 0);
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: .5em;
-    }
+    position: absolute;
+    display: flex;
+    margin-top: 1em;
+    justify-content: center;
+    width: 100%;
+    background-color: #2e2d2d;
+    bottom: 0;
+}
 
 .saiba-mais {
     border: 0px solid #252525;
