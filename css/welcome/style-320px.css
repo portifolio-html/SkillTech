@@ -14,12 +14,10 @@ html {
     font-size: 16px;
 }
 
-
 body {
     width: 100vw;
     height: 100vh;
 }
-
 
 header {
     display: flex;
@@ -42,27 +40,17 @@ div.logo-header {
 }
 
 img.img-logo {
-    width: 3.5rem;
+    width: 2.5rem;
 }
 
 div.logo-header > a {
     color: #f6c53f;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .menu-nav-bar {
     width: 100%;
 }
-
-/*body {
-    position: relative;
-    background-image: url("../../image/Nova pasta/width-768-2.jp");
-    background-position: center 0;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-attachment: local;
-    height: 100vh;
-}*/
 
 .menu-nav-bar > .nav-bar {
     display: none;
@@ -74,7 +62,6 @@ main {
     text-align: center;
     width: 90%;
     margin: 0 auto;
-    margin-top: 3em;
 }
 
 .cont-main {
@@ -87,24 +74,20 @@ main {
 }
 
 .cont-title {
-    max-width: 300px;
+    margin-top: 1em;
+    max-width: 200px;
 }
 
 .cont-title > span {
-    margin-top: 1em;
     color: #2E2D2D;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 900;
     text-shadow: 0 0 15px rgba(0, 0, 0, 0.308);
     text-transform: uppercase;
 }
 
-.cont-texto-show {
-    height: 7.35em;
-}
-
 .cont-texto-show > p {
-    margin-top: 2.5em;
+    margin-top: 1em;
     text-indent: 2.5em;
     text-align: justify;
     max-width: 350px;
@@ -124,7 +107,6 @@ footer {
     background-color: #2e2d2d;
     bottom: 0;
 }
-
 
 .saiba-mais {
     display: flex;

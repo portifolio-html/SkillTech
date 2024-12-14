@@ -80,7 +80,7 @@ div.logo-header > a {
 }
 
 footer {
-    position: absolute;
+    position: relative;
     display: flex;
     margin-top: 1em;
     justify-content: center;
