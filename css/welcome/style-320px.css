@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 * {
     margin: 0;
     padding: 0;
@@ -10,24 +9,26 @@
 }
 
 html {
-
-    font-size: 16px;
+    font-size: 16px; /* Ajuste padrão de fonte */
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    min-height: 100vh; /* Garante que a altura seja no mínimo 100vh */
+    height: auto;
 }
 
 header {
     display: flex;
-    width: 100vw;
+    width: 100%;
     justify-content: center;
 }
 
 .cont-header-bar {
     width: 100%;
     background-color: #161616;
+    max-width: 1200px; /* Limita a largura máxima */
+    margin: 0 auto; /* Centraliza o conteúdo */
 }
 
 div.logo-header {
@@ -61,7 +62,7 @@ main {
     justify-content: center;
     text-align: center;
     width: 90%;
-    height: 68%;
+    height: auto; /* Ajuste automático para o conteúdo */
     margin: 0 auto;
 }
 
@@ -76,20 +77,20 @@ main {
 }
 
 .cont-title {
-    margin-top: 0em;
+    margin-top: 0;
     max-width: 300px;
 }
 
 .cont-title > span {
     color: #2E2D2D;
-    font-size: 2.3rem;
+    font-size: 2.3rem; /* Tamanho da fonte ajustado para melhor visibilidade */
     font-weight: 900;
     text-shadow: 0 0 15px rgba(0, 0, 0, 0.308);
     text-transform: uppercase;
 }
 
 .cont-texto-show > p {
-    margin-top: 0em;
+    margin-top: 0;
     text-indent: 2.5em;
     text-align: justify;
     max-width: 350px;
@@ -126,5 +127,4 @@ footer > a {
 .saiba-mais > span {
     font-size: 1.2rem;
     color: rgb(240, 224, 219);
-
 }
