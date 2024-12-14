@@ -90,13 +90,15 @@ footer {
 }
 
 .saiba-mais {
+    width: 20em;
+    padding:.2em 0;
     border: 0px solid #252525;
     background-color: #c99d26c5;
     box-shadow: 0 0 15px rgba(185, 161, 26, 0.562);
 }
 
 .saiba-mais > span {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     color: rgb(240, 224, 219);
 
 }
