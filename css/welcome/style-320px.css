@@ -40,12 +40,12 @@ div.logo-header {
 }
 
 img.img-logo {
-    width: 2.5rem;
+    width: 2.8rem;
 }
 
 div.logo-header > a {
     color: #f6c53f;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .menu-nav-bar {
@@ -61,7 +61,7 @@ main {
     justify-content: center;
     text-align: center;
     width: 90%;
-    height: 70%;
+    height: 68%;
     margin: 0 auto;
 }
 
@@ -103,7 +103,6 @@ main {
 footer {
     position: relative;
     display: flex;
-    margin-top: 1em;
     justify-content: center;
     width: 100%;
     background-color: #2e2d2d;
@@ -113,7 +112,7 @@ footer {
     display: flex;
     justify-content: center;
     width: 13em;
-    padding: .55em;
+    padding: .4em;
     border-radius: 100px;
     border: 1px solid #f6c53f;
     background-color: #f6c53f2c;
@@ -121,11 +120,11 @@ footer {
 
 footer > a {
     color: antiquewhite;
-    margin: 1.5em;
+    margin: 1em;
 }
 
 .saiba-mais > span {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: rgb(240, 224, 219);
 
 }
