@@ -29,6 +29,7 @@ header {
 
 .cont-header-bar {
     width: 100%;
+    background-color: #161616;
 }
 
 div.logo-header {
@@ -36,7 +37,8 @@ div.logo-header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 1.5em;
+    margin-top: .5em;
+    padding-bottom: .5em;
 }
 
 div.logo-header > img.img-logo {
@@ -44,7 +46,7 @@ div.logo-header > img.img-logo {
 }
 
 div.logo-header > a {
-    color: #000000;
+    color: #f6c53f;
     font-size: 2rem;
 }
 
@@ -92,9 +94,9 @@ main {
     margin-top: 1em;
     color: #2E2D2D;
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 900;
     text-shadow: 0 0 15px rgba(0, 0, 0, 0.308);
-    
+    text-transform: uppercase;
 }
 
 .cont-texto-show {
@@ -102,9 +104,11 @@ main {
 }
 
 .cont-texto-show > p {
-    margin-top: 4em;
+    margin-top: 2.5em;
+    text-indent: 2.5em;
     text-align: justify;
     max-width: 350px;
+    line-height: 22px;
     font-size: .93rem;
     text-shadow: .3px -.3px 2px rgb(255, 255, 255);
     padding-left: 1em;
