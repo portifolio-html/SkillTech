@@ -22,11 +22,25 @@ body {
 
 .cont-header-bar {
     width: 100%;
-    background-color: #16161600;
+    background-color: #e0cb0b00;
+}
+
+img.img-logo {
+    display: none;
+}
+
+.img-logo-header {
+    width: 60px;
+    height: 60px;
+    background-image: url("../../image/icons/outros/graduacao.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: local;
 }
 
 div.logo-header > a {
-    color: rgb(250, 235, 28);
+    color: rgb(255, 255, 255);
     font-size: 3rem;
     text-shadow: 0 0 5px rgba(32, 32, 32, 0.801);
 }
