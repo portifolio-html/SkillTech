@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 * {
     margin: 0;
     padding: 0;
@@ -9,26 +10,24 @@
 }
 
 html {
-    font-size: 16px; /* Ajuste padrão de fonte */
+
+    font-size: 16px;
 }
 
 body {
-    width: 100%;
-    min-height: 100vh; /* Garante que a altura seja no mínimo 100vh */
-    height: auto;
+    width: 100vw;
+    height: 100vh;
 }
 
 header {
     display: flex;
-    width: 100%;
+    width: 100vw;
     justify-content: center;
 }
 
 .cont-header-bar {
     width: 100%;
     background-color: #161616;
-    max-width: 1200px; /* Limita a largura máxima */
-    margin: 0 auto; /* Centraliza o conteúdo */
 }
 
 div.logo-header {
@@ -62,7 +61,7 @@ main {
     justify-content: center;
     text-align: center;
     width: 90%;
-    height: auto; /* Ajuste automático para o conteúdo */
+    height: 68%;
     margin: 0 auto;
 }
 
@@ -77,20 +76,20 @@ main {
 }
 
 .cont-title {
-    margin-top: 0;
+    margin-top: 0em;
     max-width: 300px;
 }
 
 .cont-title > span {
     color: #2E2D2D;
-    font-size: 2.3rem; /* Tamanho da fonte ajustado para melhor visibilidade */
+    font-size: 2.3rem;
     font-weight: 900;
     text-shadow: 0 0 15px rgba(0, 0, 0, 0.308);
     text-transform: uppercase;
 }
 
 .cont-texto-show > p {
-    margin-top: 0;
+    margin-top: 0em;
     text-indent: 2.5em;
     text-align: justify;
     max-width: 350px;
@@ -127,4 +126,5 @@ footer > a {
 .saiba-mais > span {
     font-size: 1.2rem;
     color: rgb(240, 224, 219);
+
 }
