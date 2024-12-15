@@ -60,7 +60,8 @@ main {
 }
 
 .cont-texto-show > p {
-    
+    line-height: 1.7em;
+    font-size: 1.2rem;
 }
 
 footer {
