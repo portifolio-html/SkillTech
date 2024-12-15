@@ -9,7 +9,7 @@ body {
 }
 
 main {
-
+    position: relative;
 }
 
 .cont-main {
@@ -27,18 +27,23 @@ main {
 footer {
     background-color: rgba(0, 255, 255, 0);
     align-items: start;
+    justify-content: end;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    z-index: 9;
 }
 
-.cont-footer {
-    width: 80%;
-}
 
 .saiba-mais {
     display: flex;
     justify-content: center;
-    width: 100%;
+    align-items: center;
+    height: 3em;
+    width: 12em;
     max-width: 40em;
     padding: .4em;
+    margin-right: 25px;
     border-radius: 100px;
     border: 1px solid #f1b510;
     background-color: #f6c53f57;
