@@ -46,7 +46,9 @@ main {
 }
 
 .cont-title {
-    
+    font-size: 3.2rem;
+    font-weight: 900;
+    max-width: 400px;
 }
 
 .cont-title > span {
@@ -54,7 +56,7 @@ main {
 }
 
 .cont-texto-show {
-    
+    max-width: 400px;
 }
 
 .cont-texto-show > p {
