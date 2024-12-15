@@ -1,0 +1,88 @@
+body {
+    width: 100%;
+}
+
+body {
+    position: relative;
+    background-image: url("../../image/Nova pasta/back-finality-two.jpg");
+    background-position: left -50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    height: 100vh;
+}
+
+header {
+    background-color: rgba(228, 32, 32, 0);
+    height: 15vh;
+    align-items: end;
+}
+
+.logo-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+img.img-logo {
+    display: none;
+}
+
+.img-logo-header {
+    width: 60px;
+    height: 60px;
+    background-image: url("../../image/icons/outros/graduacao.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    margin-right: 1em;
+}
+
+div.logo-header > a {
+    color: rgb(255, 255, 255);
+    font-size: 2.2rem;
+    text-shadow: 0 0 5px rgba(32, 32, 32, 0.801);
+}
+
+main {
+    height: 70vh;
+}
+
+.cont-main {
+    align-items: start;
+    line-height: 40px;
+}
+
+.cont-title {
+    text-align: left;
+    font-size: 2.5rem;
+    font-weight: 900;
+    max-width: 400px;
+    text-shadow: 0 0 10px white;
+}
+
+.cont-title > span {
+    
+}
+
+.cont-texto-show {
+    max-width: 650px;
+}
+
+.cont-texto-show > p {
+    line-height: 1.2em;
+    font-size: 1rem;
+}
+
+footer {
+    height: 15vh;
+}
+
+.saiba-mais {
+
+}
+
+.saiba-mais > span {
+
+}
