@@ -1,0 +1,56 @@
+body {
+    background-size: cover;
+    background-position: center center;
+}
+
+.img-logo-header {
+    width: 80px;
+    height: 80px;
+}
+
+main {
+
+}
+
+.cont-main {
+    width: 80%;
+}
+
+.cont-title {
+    font-size: 3.5rem;
+    font-weight: 900;
+    max-width: 400px;
+    line-height: normal;
+    max-width: 600px;
+}
+
+footer {
+    background-color: rgba(0, 255, 255, 0);
+    align-items: start;
+}
+
+.cont-footer {
+    width: 80%;
+}
+
+.saiba-mais {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 40em;
+    padding: .4em;
+    border-radius: 100px;
+    border: 1px solid #f1b510;
+    background-color: #f6c53f57;
+}
+
+footer > a {
+    color: rgb(0, 0, 0);
+    margin: 1em;
+}
+
+.saiba-mais > span {
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+
+}

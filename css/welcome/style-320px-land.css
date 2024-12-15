@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Myriad Pro', 'Trebuchet MS', sans-serif;
+}
+
+html {
+
+    font-size: 16px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* CONFIGURAÇÃO PARA CONTAINER HEADER */
+
+header {
+    display: flex;
+    background-color: rgb(184, 10, 10);
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+.logo-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-logo {
+    width: 50px;
+}
+
+.title-logo {
+    color: rgb(210, 147, 30);
+    font-size: 2rem;
+}
+
+.menu-nav-bar {
+    display: none;
+}
+
+/* CONFIGURAÇÃO PARA CONTAINER MAIN */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.cont-main {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cont-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    max-width: 300px;
+}
+
+.cont-texto-show {
+    display: flex;
+    padding: 0 1em;
+}
+
+.cont-texto-show > p {
+    text-align: justify;
+    text-indent: 2.5em;
+    line-height: 1.5em;
+}
+
+/* CONFIGURAÇÃO PARA CONTAINER FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: #2e2d2d;
+}
+
+.saiba-mais {
+    display: flex;
+    justify-content: center;
+    width: 13em;
+    padding: .4em;
+    border-radius: 100px;
+    border: 1px solid #f6c53f;
+    background-color: #f6c53f2c;
+}
+
+footer > a {
+    color: antiquewhite;
+    margin: 1em;
+}
+
+.saiba-mais > span {
+    font-size: 1.2rem;
+    color: rgb(240, 224, 219);
+
+}
