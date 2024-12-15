@@ -19,63 +19,94 @@ body {
     height: 100vh;
 }
 
-/* CONFIGURAÇÃO PARA CONTAINER HEADER */
 
 header {
     display: flex;
-    background-color: black;
+    width: 100vw;
     justify-content: center;
-    align-items: center;
-    height: 15%;
 }
 
-.logo-header {
+.cont-header-bar {
+    width: 100%;
+    background-color: #161616;
+}
+
+div.logo-header {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    margin-top: .5em;
+    padding-bottom: .5em;
 }
 
-.img-logo {
-    width: 50px;
+img.img-logo {
+    width: 2.8rem;
 }
 
-.title-logo {
-    color: rgb(210, 147, 30);
+div.logo-header > a {
+    color: #f6c53f;
     font-size: 2rem;
 }
 
 .menu-nav-bar {
-    display: none;
+    width: 100%;
 }
 
-/* CONFIGURAÇÃO PARA CONTAINER MAIN */
+.menu-nav-bar > .nav-bar {
+    display: none;
+}
 
 main {
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
+    width: 90%;
     height: 75%;
+    margin: 0 auto;
 }
 
 .cont-main {
-    height: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    height: 100%;
 }
 
-/* CONFIGURAÇÃO PARA CONTAINER FOOTER */
+.cont-title {
+    margin-top: 0em;
+    max-width: 301px;
+}
+
+.cont-title > span {
+    color: #2E2D2D;
+    font-size: 2.3rem;
+    font-weight: 900;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.308);
+    text-transform: uppercase;
+}
+
+.cont-texto-show > p {
+    margin-top: 0em;
+    text-indent: 2.5em;
+    text-align: justify;
+    max-width: 350px;
+    line-height: 22px;
+    font-size: 1.2rem;
+    text-shadow: .3px .3px 2px rgb(255, 255, 255);
+    padding-left: .5em;
+    padding-right: .5em;
+}
 
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: absolute;
+    bottom: 0;
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 10%;
     background-color: #2e2d2d;
 }
 
