@@ -1,6 +1,5 @@
 body {
     width: 100%;
-    overflow: hidden;
 }
 
 body {
@@ -39,7 +38,7 @@ div.logo-header > a {
 }
 
 main {
-    height: 60vh;
+    height: 70vh;
 }
 
 .cont-main {
