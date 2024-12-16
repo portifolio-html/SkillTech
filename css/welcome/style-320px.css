@@ -76,6 +76,8 @@ main {
 /* CONFIGURAÇÃO DE CONTAINER FOOTER*/
 footer {
     display: flex;
+    position: relative;
+    bottom: 0;
     justify-content: center;
     background-color: #2E2D2D;
 }
