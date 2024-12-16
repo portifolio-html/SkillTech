@@ -47,7 +47,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100% - (80px+80px));
+    height: calc(80vh );
 }
 
 .cont-main {
@@ -55,7 +55,7 @@ main {
     flex-direction: column;
     justify-content: space-evenly;
     width: 90%;
-    height: 510px;
+    height: 90%;
 }
 
 .cont-title {
