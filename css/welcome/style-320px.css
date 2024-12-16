@@ -76,10 +76,8 @@ main {
 /* CONFIGURAÇÃO DE CONTAINER FOOTER*/
 footer {
     display: flex;
-    position: relative;
-    bottom: 0;
     justify-content: center;
-    background-color: #2E2D2D;
+
 }
 
 .cont-footer {
@@ -102,5 +100,5 @@ footer {
 }
 
 .saiba-mais > span {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
