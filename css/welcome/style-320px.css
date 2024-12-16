@@ -5,14 +5,14 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Myriad Pro', 'Trebuchet MS', sans-serif;
 }
 
 /* CONFIGURAÇÃO DE CONTAINER BODY*/
 body {
     width: 100vw;
     height: 100vh;
-    overflow: hidden;   
+    overflow-x: hidden;
 }
 
 /* CONFIGURAÇÃO DE CONTAINER HEADER*/
@@ -53,8 +53,8 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 90vw;
-    height: 77vh;
+    width: 90%;
+    height: 510px;
 }
 
 .cont-title {
@@ -92,7 +92,7 @@ footer {
     display: flex;
     justify-content: center;
     width: 13em;
-    padding: 7px;
+    padding: 10px;
     margin: 10px 0;
     border-radius: 100px;
     border: 1px solid #f6c53f;
