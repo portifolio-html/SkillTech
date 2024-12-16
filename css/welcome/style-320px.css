@@ -12,7 +12,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 /* CONFIGURAÇÃO DE CONTAINER HEADER*/
@@ -47,6 +47,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: calc(100% - (80px+80px));
 }
 
 .cont-main {
@@ -75,9 +76,12 @@ main {
 
 /* CONFIGURAÇÃO DE CONTAINER FOOTER*/
 footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
     display: flex;
     justify-content: center;
-
+    background-color: #2E2D2D;
 }
 
 .cont-footer {
@@ -100,5 +104,5 @@ footer {
 }
 
 .saiba-mais > span {
-    color: rgb(0, 0, 0);
+    color: aliceblue;
 }
