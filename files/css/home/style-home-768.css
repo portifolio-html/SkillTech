@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+.cont-header-principal {
+    display: flex;
+    flex-direction: column;
+}
+
+#menu-open {
+    display: none;
+}
+
+.cont-list-bar {
+    position: sticky;
+    display: flex;
+    width: auto;
+    height: auto;
+    background-color: rgba(0, 255, 255, 0);
+}
+
+.list-bar {
+    flex-direction: row;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.op {
+    margin: 0 8px;
+}
+
+main {
+    position: relative;
+    top: 5.5em;
+    padding: 0;
+    margin: 0;
+}
+
+.slide1 > .efeito1 > .cont-infor {
+    top: 0;
+}
+
+.slide1 > .efeito1 > .cont-infor > img {
+    width: 350px;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-28%);
+    z-index: 0;
+}
+
+.slide1 > .efeito1 > .cont-infor > span {
+    position: relative;
+    color: #fff;
+    font-size: 2rem;
+    padding-bottom: .4em;
+    z-index: 1;
+    top: 80px;
+}
+
+.slide1 > .efeito1 > .cont-infor > h2 {
+    position: relative;
+    background-color: #A3A901;
+    color: #00150F;
+    padding: 3px 15px;
+    border-radius: 10px;
+    font-size: 3.5rem;
+    z-index: 1;
+    top: 80px;
+}
+
+/* slide 3*/
+
+.slide3 > .efeito1 > .texto-efeito  > .cont-infor > .logo2 {
+    width: 150px;
+    top: -25px;
+}
+
+.slide3 > .efeito1 > .texto-efeito  > .cont-infor > div > p {
+    width: 350px;
+    font-size: 1rem;
+}
+.slide3 > .efeito1 > .texto-efeito  > .cont-infor > div > h2 {
+    font-size: 4.5rem;
+}
+
+/* slide #04 */
+
+.slide4 > .efeito1 > .cont-infor > .init {
+    position: relative;
+    color: orangered;
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    z-index: 1;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.slide4 > .efeito1 > .cont-infor > .sub {
+    position: relative;
+    color: #fff;
+    font-size: 2rem;
+    z-index: 1;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.slide4 > .efeito1 > .cont-infor > img {
+    width: 350px;
+    margin: 5px 0;
+    transform: translate(0, 0);
+    z-index: 0;
+}
+
+.slide4 > .efeito1 > .cont-infor > .infor-line {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide4 > .efeito1 > .cont-infor > .infor-line > .line {
+    width: 220px;
+    border-bottom: 3px solid black;
+    margin-right: 10px;
+}
+
+.slide4 > .efeito1 > .cont-infor > .infor-line  > h3 {
+    position: relative;
+    color: #00150F;
+    font-size: 1.5rem;
+    z-index: 1;
+    padding: 0;
+}
+
+/*SEÇÕES*/
+
+.secao6-1 {
+    margin-bottom: 90px;
+    color: #000000;
+}
+
+/* footer */
+
+.contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 1.5em;
+}
+
+.contato > .infor {
+    align-items: start;
+    margin-left: 1em;
+    margin-top: 0;
+}
+.contato > .infor > span {
+    margin-top: 3px;
+}
+
+.visite {
+    margin-top: 25px;
+    padding-bottom: 1em;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.redes-sociais > li {
+    margin: 0 15px;
+}

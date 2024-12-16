@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+/*HEADER*/
+.cont-header-principal {
+    flex-direction: row;
+}
+
+/*MAIN*/
+
+main {
+    padding-top: 2.5em;
+}
+
+.bem-vindo > h2 {
+    font-size: 4rem;
+}
+
+/*SEÇÕES*/
+
+.secao {
+    width: 100%;
+    padding: 1em;
+}
+
+.secao-main-one {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    color: #bbbab7;
+    height: 100vh;
+}
+
+.cont-principal-main {
+    display: flex;
+    position: relative;
+    width: 90%;
+    margin: auto;
+    padding: 1em;
+}
+
+.cont-inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    z-index: 1;
+}
+
+.cont-inicio > h1 {
+    text-align: left;
+    font-size: 4.5rem;
+    max-width: 650px;
+}
+.cont-inicio > img {
+    display: none;
+}
+.cont-inicio > h2 {
+    font-size: 1.8rem;
+    max-width: 400px;
+}
+
+.cont-inicio > a {
+    width: 80%;
+}
+
+.cont-inicio > a > div {
+    background-color: #fad323;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+    color: #000;
+}
+
+.cont-principal-main > img {
+    position: absolute;
+    display: block;
+    width: 500px;
+    top: 50%;
+    transform: translate(0%, -50%);
+    right: -20px;
+    z-index: 0;
+    opacity: 70%;
+    filter: blur(1px);
+}
+
+.cont-principal {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.cont-servicos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cont-servicos > h2 {
+    font-size: 1.5rem;
+    text-align: left;
+    width: 200px;
+    
+}
+
+.cont-servicos > hr {
+    display: none;
+}
+
+.servicos {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    width: 300px;
+    border-left: 1px solid gray;
+}
+
+.servicos > ul {
+    display: grid;
+    gap: 15px;
+}
+
+.servicos > ul > li {
+    list-style: square;
+    margin-left: 25px;
+}
+
+.cont-servicos > a > div {
+    background-color: #63B775;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+    color: #ffffff;
+}
+
+
+/*INICIAL*/
+
+.bem-vindo {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.bem-vindo > h2 {
+    font-size: 3rem;
+    text-align: left;
+    width: 700px;
+}
+.bem-vindo > h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/*SOBRE MIM*/
+
+.user {
+    display: flex;
+}
+
+.img-user > img {
+    width: 300px;
+}
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
