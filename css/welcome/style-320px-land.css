@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Myriad Pro', 'Trebuchet MS', sans-serif;
+}
+
+/* CONFIGURAÇÃO DE CONTAINER HEADER*/
+header {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);    
+}
+
+.cont-header-bar {
+
+}
+
+.logo-header {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.img-logo-header {
+
+}
+
+.img-logo {
+    width: 60px;
+}
+
+.title-logo {
+    font-size: 2.5rem;
+    color: rgb(210, 177, 30);
+}
+
+/* CONFIGURAÇÃO DE CONTAINER MAIN*/
+main {
+    margin-top: 1.2em;
+}
+
+.cont-main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cont-title {
+    text-align: left;
+    font-size: 2.5rem;
+    max-width: 300px;
+}
+
+.cont-texto-show {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.cont-texto-show > p {
+    max-width: 300px;
+    text-align: justify;
+    text-indent: 2.5em;
+    padding-bottom: 15px;
+    font-weight: 900;
+}
+
+.cont-texto-show > a {
+    color: chocolate;
+}
+
+/* CONFIGURAÇÃO DE CONTAINER FOOTER*/
+footer {
+    display: none;
+}
+
+.cont-footer {
+
+}
+
+.cont-footer > a{
+
+}
+
+.saiba-mais {
+
+}
+
+.saiba-mais > span {
+
+}

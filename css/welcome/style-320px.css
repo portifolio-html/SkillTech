@@ -38,7 +38,7 @@ header {
 }
 
 .title-logo {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: rgb(255, 166, 0);
 }
 
@@ -61,7 +61,7 @@ main {
 .cont-title {
     text-align: center;
     font-size: 2.5rem;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .cont-texto-show {
@@ -71,7 +71,11 @@ main {
 .cont-texto-show > p {
     text-align: justify;
     text-indent: 50px;
-    line-height: 24px;
+    line-height: 30px;
+}
+
+.cont-texto-show > a {
+    display: none;
 }
 
 /* CONFIGURAÇÃO DE CONTAINER FOOTER*/
