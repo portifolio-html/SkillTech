@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+header {
+    position: fixed;
+}
+
 .cont-header-principal {
     flex-direction: row;
 }
