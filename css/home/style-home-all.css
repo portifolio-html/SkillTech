@@ -127,7 +127,6 @@ hr.secao {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 600px;
     background: url("../../image/Nova pasta/teste.jpeg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -139,7 +138,7 @@ hr.secao {
     background-color: #000000;
     color: #F5F5F5;
     padding: 0 2em 25px;
-    height: 620px;
+    height: 100vh;
 }
 
 .secao2 {
