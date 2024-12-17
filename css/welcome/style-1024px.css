@@ -28,18 +28,16 @@ header {
 
 /* CONFIGURAÇÃO DE CONTAINER MAIN*/
 main {
+    
     display: flex;
     align-items: center;
     width: 80vw;
-    height: 100vh;
-    margin: 0 auto;
-    justify-content: left;
+    margin: 40px auto;
 }
 
 .cont-main {
     width: 100%;
     flex-direction: column;
-    height: 80%;
 }
 
 .cont-title {
