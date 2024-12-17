@@ -11,6 +11,8 @@
 /* CONFIGURAÇÃO DE CONTAINER BODY*/
 body {
     background-image: url("../../image/Nova pasta/back-finality-two.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100vw;
     height: 100vh;
     overflow-y: hidden;
