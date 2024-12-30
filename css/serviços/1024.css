@@ -27,7 +27,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #000;
+    background-color: #000000;
     color: #bbbab7;
     height: 100vh;
 }
@@ -35,9 +35,9 @@ main {
 .cont-principal-main {
     display: flex;
     position: relative;
-    width: 90%;
     margin: auto;
     padding: 1em;
+    width: 70%;
 }
 
 .cont-inicio {
@@ -45,6 +45,7 @@ main {
     flex-direction: column;
     align-items: start;
     z-index: 1;
+    
 }
 
 .cont-inicio > h1 {
@@ -81,7 +82,7 @@ main {
     transform: translate(0%, -50%);
     right: -20px;
     z-index: 0;
-    opacity: 70%;
+    opacity: 40%;
     filter: blur(1px);
 }
 
